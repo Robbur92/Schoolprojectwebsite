@@ -1,0 +1,352 @@
+html
+{
+    min-height:100%;
+    position:relative;
+}
+nav /*Centers the navbar */
+{
+    text-align: center;
+    font-size: 20px;
+}
+nav ul ul /* Hides the submenus when not hovering */
+{
+    display: none;
+}
+nav ul li:hover > ul /* Displays submenus on hover */
+{
+    display: block;
+    background: #416A89;
+    background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+    background: (top, #606c88 0%, #3f4c6b 100%);
+    z-index: 1;
+
+}
+nav ul /* Layout and position */
+{
+    background: none;
+    border-radius: 0px 0px 5px 5px;
+    background: #416A89;
+    background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+    background: (top, #606c88 0%, #3f4c6b 100%);
+    border: 1px solid #fff;
+    border-top: 0px;
+    padding: 0 70px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    top:-20px;
+
+}
+nav ul:after
+{
+    content: "";
+    clear: both; 
+    display: block;
+}
+nav ul li 
+{
+    float: left;
+
+}
+nav ul li:hover /*Navbar hover background */ 
+{
+    background: #181818;
+    background: rgba(0, 20, 30, 0.6);
+}
+nav ul li a:hover /* changes the text color of when hovering */
+{
+    text-decoration: underline;
+}
+nav ul li ul li a /* changes the font size of submenu text */
+{
+    font-size: 15px;
+}
+nav ul li a /* navbar design */
+{
+    display: block; 
+    padding: 20px 40px;
+    color: #fff; 
+    text-decoration: none;
+
+}
+nav ul li ul /* Submenu design */
+{
+    border-radius: 1px; 
+    padding: 0;
+    position: absolute; 
+    top: 98%;
+}
+nav ul ul li /* Makes submenus go under eachother */
+{
+    float: none; 
+    position: relative;
+}
+/* BODY */
+body 
+{
+    background-image: url("http://th09.deviantart.net/fs70/PRE/f/2014/036/a/c/background_gaming__website__by_fnkk-d758mbq.png");
+    background-color: #181818;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height:100%;
+}
+#middle
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width:72%;
+    position: relative;
+    right: -3.5%;
+    height: auto;
+    z-index: -1;
+}
+
+#middle p
+{
+    text-align: center;
+    font:12px arial, verdana, sans-serif;
+    color: #fff;
+}
+#middle h1
+{
+    color: #fff;
+}
+img 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#leftCategories
+{
+    position: relative;
+    width: 10%;
+    float: left;
+    color: #fff;
+    font:1em arial, verdana, sans-serif;
+}
+#leftCategories a:visited 
+{
+    color: #fff;
+    text-decoration: none;
+}
+#leftCategories a:link 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#leftCategories ul p
+{
+    font-size: 12px;
+    text-align: center;
+}
+#leftCategories p:hover
+{
+    text-decoration: underline;
+}
+#rightGuidesReviews
+{
+    position: relative;
+    width: 10%;
+    right: 30px;
+    float: right;
+    color: #fff;
+    font:1em arial, verdana, sans-serif;
+}
+#rightGuidesReviews a:visited 
+{
+    color: #fff;
+    text-decoration: none;
+}
+#rightGuidesReviews a:link 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#rightGuidesReviews ul p
+{
+    font-size: 12px;
+    text-align: center;
+}
+#rightGuidesReviews p:hover
+{
+    text-decoration: underline;
+}
+h4
+{
+    font-size: 15px;
+    text-decoration: underline;
+}
+/*FOOTER*/
+#bottom
+{
+    background: #416A89;
+    width: 100%;  
+    position: absolute;
+    left:0px;
+    bottom:0;
+    height:6%;
+    overflow:hidden;
+
+}
+#bottom:hover 
+{
+    height:13%;
+}
+#footer
+{
+    width:100%;
+    margin: 0 auto;
+}
+#footer ul
+{
+    list-style:none;
+    color:white;
+    margin-left:160px;
+}
+#footer li a
+{
+    padding:0px 0px;
+    display:block;
+    color:white;
+    text-decoration:none;
+    font:10px arial, verdana, sans-serif;
+}
+#footer li p
+{
+    text-decoration: none;
+    font: 10px arial, verdana, sans-serif;
+}
+#footer ul li
+{
+    padding:3px;
+    text-decoration: none;
+}
+.color
+{
+    color:white;
+    font-size: 20px;
+    background:none !important;
+}
+.bottom-ul
+{
+    float:left;width:28%;
+    margin-left:13px;
+
+}
+.bottom-ul ul li
+{
+    font: 10px arial, verdana, sans-serif;
+}
+#bottom-text
+{
+    text-align:center;
+    color:white;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+}
+/*FOOTER END*/
+#textarea h1
+{
+    text-align: center;
+    color:#789EAF;
+    font:30px arial, verdana, sans-serif;
+}
+#textarea form
+{
+    display: inline-block;
+}
+#textarea textarea
+{
+    width: 60%;
+    background: white;
+    text-align: center;
+    color:black;
+    display: inline-block;
+    position: relative;
+    left:19.5%;
+    z-index: 0;
+    resize: none;
+}
+
+#textarea p
+{
+    color:#789EAF;
+    position: relative;
+    left:-300px;
+    top: 140px;
+}
+#GuidesMiddle
+{
+    display: inline-block;
+    left:25%;
+    width:50%;
+    position: relative;
+    right: -3.5%;
+    height: 550px;
+    max-height: 585px;
+    z-index: 0;
+    overflow-y: scroll;
+}
+
+#GuidesMiddle p 
+{
+    text-align: left;
+    color: #185772;
+    font: 1em solid sans-serif;
+    font-family: arial;
+}
+
+#GuidesMiddle h1
+{
+    text-align: center;
+    color: #185772;
+    font: 2em solid sans-serif;
+    font-family: arial black;
+}
+
+#GuidesMiddle h2
+{
+    text-align: center;
+    color: #185772;
+    font: 1.5em solid sans-serif;
+    font-family: arial black;
+}
+
+#GuidesMiddle hr
+{
+    width:80% ;
+}
+
+#GuidesMiddle img
+{
+    width: 20%;
+    height: 60%;
+    position: center;
+    display: inline-block;
+    padding:0px 36px;
+}
+
+#submit
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+#submitb
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
